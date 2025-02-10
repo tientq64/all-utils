@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Test",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "focus": true,
+                "clear": true
+            },
+            "command": "npm test"
+        },
+        {
+            "label": "Build",
+            "type": "shell",
+            "presentation": {
+                "close": true,
+                "reveal": "silent"
+            },
+            "command": "npx typedoc --entryPointStrategy Expand src",
+            "problemMatcher": []
+        }
+    ]
+}

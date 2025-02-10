@@ -1,0 +1,39 @@
+{
+    "name": "all-utils",
+    "version": "0.1.0",
+    "description": "All-in-one utility functions, super utilities",
+    "homepage": "https://allutils.vercel.app",
+    "keywords": [
+        "utils",
+        "utilities",
+        "all-in-one",
+        "super",
+        "lodash"
+    ],
+    "author": {
+        "name": "tientq64",
+        "email": "tientq64@gmail.com",
+        "url": "https://github.com/tientq64"
+    },
+    "type": "module",
+    "scripts": {
+        "test": "vitest run",
+        "build": "npx typedoc --entryPointStrategy Expand src"
+    },
+    "dependencies": {
+        "js-yaml": "^4.1.0",
+        "lorem-ipsum": "^2.0.8",
+        "nanoid": "^5.0.9",
+        "prettier": "^3.4.2",
+        "typescript": "^5.7.3"
+    },
+    "devDependencies": {
+        "@types/js-yaml": "^4.0.9",
+        "@types/node": "^22.13.1",
+        "prettier-plugin-jsdoc": "^1.3.2",
+        "ts-node": "^10.9.2",
+        "typedoc": "^0.27.7",
+        "vitest": "^3.0.5"
+    },
+    "license": "MIT"
+}

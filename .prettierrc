@@ -1,0 +1,12 @@
+{
+    "printWidth": 100,
+    "quoteProps": "consistent",
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "none",
+    "plugins": ["prettier-plugin-jsdoc"],
+    "jsdocDescriptionWithDot": true,
+    "jsdocCommentLineStrategy": "multiline",
+    "jsdocPrintWidth": 90
+}
