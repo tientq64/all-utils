@@ -3,7 +3,7 @@
     "search.exclude": {
         "node_modules": true,
         "docs": true,
-        "package-lock.json": true,
+        "package-lock.json": true
     },
     "[typescript]": {
         "editor.formatOnSave": true

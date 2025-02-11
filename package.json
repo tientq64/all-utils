@@ -6,6 +6,10 @@
     "keywords": [
         "utils",
         "utilities",
+        "utils-lib",
+        "utils-library",
+        "functions",
+        "all",
         "all-in-one",
         "super",
         "lodash"
@@ -18,7 +22,7 @@
     "type": "module",
     "scripts": {
         "test": "vitest run",
-        "build": "npx typedoc --entryPointStrategy Expand src"
+        "build-docs": "npx typedoc --entryPointStrategy Expand src"
     },
     "dependencies": {
         "js-yaml": "^4.1.0",
